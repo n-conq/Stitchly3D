@@ -104,14 +104,14 @@ lengths where clicking the edge line itself is imprecise.
 
 A hat pattern is included as a complete worked example.
 
-**Input**: `../2026-05-12_Schnittmuster_Hat.json`
+**Input**: `../Stitchly3D\cutting_pattern_Hat.json`
 (already converted from `.sm2d`; load directly via `PatternEditorApp`)
 
 **Direct load** (bypassing the file-selection dialog):
 
 ```python
 from app import PatternEditorApp
-PatternEditorApp('../2026-05-12_Schnittmuster_Hat.json')
+PatternEditorApp('../Stitchly3D\cutting_pattern_Hat.json')
 ```
 
 The file contains 44 edges across 1 part, stored in v2.0 format with a
