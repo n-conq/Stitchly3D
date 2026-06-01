@@ -989,7 +989,7 @@
         },
         {
             "id": "stitch_2",
-            "stitchType": "605"
+            "stitchType": "504"
         }
     ],
     "seams": [
@@ -1015,313 +1015,6 @@
         {
             "id": "seam_2",
             "color": "#787878",
-            "seamType": "1.01.01",
-            "stitchId": "stitch_2",
-            "seamAllowance": 0.5,
-            "sewnEdges": [
-                {
-                    "id": "edge_23_22",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_21",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_20",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_19",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_18",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_17",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_16",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_15",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_14",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_13",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_36",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_35",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_34",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_33",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_32",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_31",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_30",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_29",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_28",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_25",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                }
-            ]
-        },
-        {
-            "id": "seam_3",
-            "color": "#6fb0d7",
-            "seamType": "1.01.01",
-            "stitchId": "stitch_2",
-            "seamAllowance": 0.5,
-            "sewnEdges": [
-                {
-                    "id": "edge_23_46",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_45",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_44",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_43",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_42",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_41",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_40",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_39",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_23_38",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_34",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_35",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_36",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_37",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_38",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_39",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_40",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_41",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_42",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                }
-            ]
-        },
-        {
-            "id": "seam_4",
-            "color": "#575757",
-            "seamType": "1.01.01",
-            "stitchId": "stitch_2",
-            "seamAllowance": 0.5,
-            "sewnEdges": [
-                {
-                    "id": "edge_Schnittteil-hat_22",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_21",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_20",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_19",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_18",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_17",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_16",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_15",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_14",
-                    "role": "side_1",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_32",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_31",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_30",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_29",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_28",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_27",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_26",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_25",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                },
-                {
-                    "id": "edge_Schnittteil-hat_24",
-                    "role": "side_2",
-                    "fabricSide": "right"
-                }
-            ]
-        },
-        {
-            "id": "seam_5",
-            "color": "#3f8fc5",
             "seamType": "1.01.01",
             "stitchId": "stitch_2",
             "seamAllowance": 0.5,
@@ -1428,6 +1121,105 @@
                 },
                 {
                     "id": "edge_Schnittteil-hat_12",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                }
+            ]
+        },
+        {
+            "id": "seam_3",
+            "color": "#6fb0d7",
+            "seamType": "1.01.01",
+            "stitchId": "stitch_2",
+            "seamAllowance": 0.5,
+            "sewnEdges": [
+                {
+                    "id": "edge_Schnittteil-hat_22",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_21",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_20",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_19",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_18",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_17",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_16",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_15",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_14",
+                    "role": "side_1",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_32",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_31",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_30",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_29",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_28",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_27",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_26",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_25",
+                    "role": "side_2",
+                    "fabricSide": "right"
+                },
+                {
+                    "id": "edge_Schnittteil-hat_24",
                     "role": "side_2",
                     "fabricSide": "right"
                 }

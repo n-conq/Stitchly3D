@@ -515,7 +515,7 @@ class SeamDefinitionPlotter(BasePatternPlotter):
                         msg = f"{prefix}{done_str}{label}: Click the START vertex"
                     else:
                         msg = (f"{prefix}{done_str}{label}: {n_cur} edge(s) — "
-                               f"click START for more, or 'Next' to {next_hint}")
+                               f"click 'Next' to {next_hint}")
                 elif self.workflow_state == 'await_second':
                     msg = f"{prefix}{done_str}{label}: Click an ADJACENT vertex to set direction"
                 else:
