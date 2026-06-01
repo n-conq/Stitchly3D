@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Seamly2D v2025.7.7.216 (https://seamly.io).-->
+    <version>0.7.2</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements>../Maße/Individuell/2025-10-27_SH.smis</measurements>
+    <variables/>
+    <draftBlock name="Hat">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="A" showPointName="true" type="single" x="0.79375" y="1.05833"/>
+            <point angle="0" basePoint="1" id="2" length="head_circ/2" lineColor="black" lineType="solidLine" lineWeight="1" mx="0.132292" my="0.264583" name="A1" showPointName="true" type="endLine"/>
+            <point angle="90" basePoint="2" id="3" length="head_circ/4" lineColor="black" lineType="solidLine" lineWeight="1" mx="0.132292" my="0.264583" name="A2" showPointName="true" type="endLine"/>
+            <point firstPoint="1" id="4" lineColor="black" lineType="dashLine" lineWeight="0.35" mx="0.132292" my="0.264583" name="A3" secondPoint="3" showPointName="true" type="intersectXY"/>
+            <point firstPoint="4" id="5" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="A4" secondPoint="3" showPointName="true" type="alongLine"/>
+            <point firstPoint="4" id="6" length="CurrentLength/2" lineColor="black" lineType="none" lineWeight="0.35" mx="0.132292" my="0.264583" name="A5" secondPoint="5" showPointName="true" type="alongLine"/>
+            <point angle="90" basePoint="6" id="7" length="Line_A4_A2" lineColor="black" lineType="solidLine" lineWeight="1" mx="0.132292" my="0.264583" name="A6" showPointName="true" type="endLine"/>
+            <spline angle1="90.5859" angle2="231.042" color="black" id="8" length1="8.56863" length2="7.47412" lineWeight="1" penStyle="solidLine" point1="4" point4="7" type="simpleInteractive"/>
+            <operation axisType="1" center="6" id="9" suffix="_a1" type="flippingByAxis">
+                <source>
+                    <item alias="" color="black" idObject="8" lineType="solidLine"/>
+                </source>
+                <destination>
+                    <item idObject="10"/>
+                </destination>
+            </operation>
+            <operation axisType="1" center="5" id="11" suffix="_a2" type="flippingByAxis">
+                <source>
+                    <item alias="" color="black" idObject="4" lineType="solidLine"/>
+                    <item alias="" color="black" idObject="8" lineType="solidLine"/>
+                    <item alias="" color="black" idObject="10" lineType="solidLine"/>
+                </source>
+                <destination>
+                    <item idObject="12" mx="0.132292" my="0.264583" showPointName="true"/>
+                    <item idObject="13"/>
+                    <item idObject="14"/>
+                </destination>
+            </operation>
+            <line firstPoint="1" id="15" lineColor="black" lineType="solidLine" lineWeight="1" secondPoint="4"/>
+        </calculation>
+        <modeling>
+            <point id="16" idObject="2" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="17" idObject="1" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <point id="18" idObject="4" inUse="true" mx="0.132292" my="0.264583" showPointName="true" type="modeling"/>
+            <spline id="19" idObject="8" inUse="true" type="modelingSpline"/>
+            <spline id="20" idObject="10" inUse="true" type="modelingSpline"/>
+            <spline id="21" idObject="14" inUse="true" type="modelingSpline"/>
+            <spline id="22" idObject="13" inUse="true" type="modelingSpline"/>
+        </modeling>
+        <pieces>
+            <piece color="#ffffff" fill="nobrush" forbidFlipping="false" hideMainPath="false" id="23" inLayout="true" locked="false" mx="0" my="0" name="Schnittteil-hat" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="Links/Rechts" fontSize="0" height="2" letter="" mx="767.063" my="-526.929" onFold="false" orientation="Undefiniert" quantity="1" rotation="0" rotationWay="Keine" tilt="Keine" visible="true" width="3"/>
+                <patternInfo fontSize="0" height="2" mx="237.819" my="-526.929" rotation="0" visible="true" width="3"/>
+                <grainline arrows="0" length="2" mx="559.134" my="-451.339" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="16" type="NodePoint"/>
+                    <node idObject="17" type="NodePoint"/>
+                    <node idObject="18" type="NodePoint"/>
+                    <node idObject="19" reverse="0" type="NodeSpline"/>
+                    <node idObject="20" reverse="1" type="NodeSpline"/>
+                    <node idObject="21" reverse="0" type="NodeSpline"/>
+                    <node idObject="22" reverse="1" type="NodeSpline"/>
+                </nodes>
+            </piece>
+        </pieces>
+        <groups/>
+        <images/>
+    </draftBlock>
+</pattern>

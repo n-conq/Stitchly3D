@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smis>
+    <!--Measurements created with SeamlyMe v2025.7.7.216 (https://seamly.io/).-->
+    <version>0.3.4</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name/>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="bust_circ" value="98"/>
+        <m name="head_circ" value="56"/>
+        <m name="height" value="178"/>
+        <m name="hip_circ" value="98"/>
+        <m name="waist_circ" value="65"/>
+        <m name="height_highhip" value="110"/>
+        <m name="leg_crotch_to_floor" value="90"/>
+        <m name="width_hip" value="55"/>
+        <m name="leg_waist_side_to_floor" value="110"/>
+        <m name="rise_length_side_sitting" value="20"/>
+    </body-measurements>
+</smis>

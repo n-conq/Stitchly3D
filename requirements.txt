@@ -1,0 +1,10 @@
+matplotlib==3.10.8
+numpy==2.4.1
+jsonschema==4.26.0
+
+# optional — seam/stitch image picker displays PNG thumbnails with Pillow;
+# without it the picker falls back to text-only labels
+Pillow==12.1.0
+
+# development / testing only
+pytest==9.0.3

@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Stitchly3D/cutting-pattern/schema-cutting-pattern.json",
+  "title": "3D Cutting Pattern",
+  "description": "2D garment cutting pattern with global vertex/edge tables and part, seam, stitch data",
+  "type": "object",
+  "required": ["version", "units", "vertices", "edges", "parts", "stitches", "seams"],
+  "properties": {
+
+    "version": {
+      "type": "string",
+      "description": "Schema version (semver, e.g. '2.0')"
+    },
+
+    "units": { "type": "string", "enum": ["cm"], "description": "Coordinate unit for all x/y values." },
+
+    "vertices": {
+      "type": "array",
+      "description": "Deduplicated vertex table. Each vertex appears exactly once; edges and geometry reference vertices by id.",
+      "items": {
+        "type": "object",
+        "required": ["id", "x", "y"],
+        "properties": {
+          "id": { "type": "string" },
+          "x":  { "type": "number", "description": "X coordinate in centimetres" },
+          "y":  { "type": "number", "description": "Y coordinate in centimetres" }
+        },
+        "additionalProperties": false
+      }
+    },
+
+    "edges": {
+      "type": "array",
+      "description": "Global edge table. Vertex identity is established by id reference, not by coordinate comparison.",
+      "items": {
+        "type": "object",
+        "required": ["id", "v1", "v2"],
+        "properties": {
+          "id":   { "type": "string" },
+          "v1":   { "type": "string", "description": "id of the start vertex" },
+          "v2":   { "type": "string", "description": "id of the end vertex" },
+          "type": {
+            "type": "string",
+            "enum": ["outline", "mirror", "construction"],
+            "description": "'outline' edges form the closed boundary polygon. 'mirror' are reflected seam/fold lines. 'construction' are manually added interior lines (darts, grainlines). Absent field is treated as 'outline'."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+
+    "parts": {
+      "type": "array",
+      "description": "Pattern pieces. Each part owns an ordered list of edge ids drawn from the global edge table.",
+      "items": {
+        "type": "object",
+        "required": ["id", "edgeIds"],
+        "properties": {
+          "id":                { "type": "string" },
+          "edgeIds":           { "type": "array", "items": { "type": "string" } },
+          "onFold":            { "type": "boolean" },
+          "grainlineRotation": { "type": "number" }
+        }
+      }
+    },
+
+    "stitches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "stitchType"],
+        "properties": {
+          "id":         { "type": "string" },
+          "stitchType": { "type": "string" }
+        }
+      }
+    },
+
+    "seams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "color", "seamType", "stitchId", "sewnEdges"],
+        "properties": {
+          "id":        { "type": "string" },
+          "color":     { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+          "seamType":  { "type": "string" },
+          "stitchId":       { "type": "string" },
+          "seamAllowance":  { "type": "number", "minimum": 0,
+                              "description": "Seam allowance width in centimetres." },
+          "sewnEdges": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "role", "fabricSide"],
+              "properties": {
+                "id":         { "type": "string" },
+                "role":       { "enum": ["side_1", "side_2", "base", "wrap", "edges"] },
+                "fabricSide": { "enum": ["right", "left"] }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
