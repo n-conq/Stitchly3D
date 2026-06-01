@@ -3,6 +3,6 @@
   month = {06},
   title = {{Stitchly 3D - A Tool for Aggregating Assembly and Assembly Planning Information for Textile Products and Garments}},
   url = {https://github.com/n-conq/Stitchly3D},
-  version = {1.0},
+  version = {0.1.0},
   year = {2026}
 }
